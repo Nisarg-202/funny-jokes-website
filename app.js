@@ -166,8 +166,8 @@ var transporter = nodemailer.createTransport({
 var mailOptions = {
   from: 'nisargprajapati202@gmail.com',
   to: req.body.username,
-  subject: "Daily Funny Gujarati Jokes.",
-  html: "<h1>Welcome to daily funny gujarati jokes</h1><br> <p>In this website you can read a daily new gujarati joke and if you want to add your joke so add a jokes in a given box.</p> <br> <p>Thank you.</p>"
+  subject: "Daily Funny 😂😂 Jokes.",
+  html: "<h1>Welcome to daily funny jokes 🤣🤣🤣.</h1><br> <p>In this website you can read a daily new joke and if you want to add your joke so add a jokes in a given box.</p> <br> <p>Thank you.</p>"
 };
 
 transporter.sendMail(mailOptions, function(error, info){

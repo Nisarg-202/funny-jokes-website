@@ -1,6 +1,7 @@
 .date {
   position: relative;
   margin-left: 1250px;
+  color: #235952;
 }
 
 .navbar-brand {
@@ -10,4 +11,40 @@
 .btn {
   position: relative;
   margin-left: 45%;
+}
+
+#label {
+  font-family: sans-serif;
+  color: #235952;
+}
+
+.lead {
+  color: #235952;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #date {
+    font-size: 44px;
+    margin-left: 700px;
+  }
+  #container {
+    width: 100%;
+  }
+  #lead {
+    font-size: 40px;
+
+  }
+  #btn {
+    font-size: 40px;
+  }
+  #label {
+    font-size: 40px;
+  }
+  #navbar-brand {
+    font-size: 40px;
+    margin-left: 800px;
+  }
+  #exampleInputEmail1 {
+  max-width: 100%;
+  }
 }

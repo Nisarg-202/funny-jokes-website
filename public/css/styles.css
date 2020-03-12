@@ -20,3 +20,21 @@ h2 {
 #btn2 {
   margin-left: 51%;
 }
+
+@media (min-width: 320px) and (max-width: 1000px) {
+  #imogi {
+    font-size: 200px;
+  }
+  #btn1 {
+    margin-left: 250px;
+    font-size: 50px;
+  }
+  #btn2 {
+    position: relative;
+    margin-left: 500px;
+    font-size: 50px;
+  }
+  #display-4 {
+    font-size: 100px;
+  }
+}

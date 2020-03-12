@@ -43,12 +43,18 @@ body {
   border-top-right-radius: 0;
 }
 
+h3 {
+  color: #235952;
+}
+
 #btn1 {
   margin-top: 150px;
   position: absolute;
+  font-family: sans-serif;
 }
 
 #btn2 {
   margin-top: 230px;
+  font-family: sans-serif;
 
 }
