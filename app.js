@@ -60,7 +60,7 @@ passport.deserializeUser(function(id, done) {
 passport.use(new GoogleStrategy({
     clientID: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
-    callbackURL: "http://localhost:3000/auth/google/jokes"
+    callbackURL: "http://glacial-anchorage-70961.herokuapp.com/auth/google/jokes"
   },
   function(accessToken, refreshToken, profile, cb) {
     console.log(profile);
@@ -73,7 +73,7 @@ passport.use(new GoogleStrategy({
 passport.use(new FacebookStrategy({
     clientID: process.env.APP_ID,
     clientSecret: process.env.APP_SECRET,
-    callbackURL: "http://localhost:3000/auth/facebook/jokes"
+    callbackURL: "http://glacial-anchorage-70961.herokuapp.com/auth/facebook/jokes"
   },
   function(accessToken, refreshToken, profile, cb) {
     console.log(profile);
