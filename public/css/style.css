@@ -1,6 +1,6 @@
 .date {
   position: relative;
-  margin-left: 1250px;
+  margin-left: 1220px;
   color: #235952;
 }
 
@@ -24,6 +24,10 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   #date {
+    font-size: 44px;
+    margin-left: 700px;
+  }
+  #date1 {
     font-size: 44px;
     margin-left: 700px;
   }
